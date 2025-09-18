@@ -1,1 +1,2 @@
-# Morta
+# My First Repo
+Learning how to use GitHub on mobile 
