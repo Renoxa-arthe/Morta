@@ -1,0 +1,17 @@
+name: Test Repo
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Run test script
+      run: echo "✅ GitHub Actions is working on your repo!"
